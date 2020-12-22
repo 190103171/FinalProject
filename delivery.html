@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WHOOPIE CAKES</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link id="iconka" rel="icon" href="images/icon1.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Italianno&display=swap" 
+    rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/delivery.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <style>
+      .active {
+        background-color: #ffc0cb;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav header" role="banner" id="main-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--mobilkadagy header-->
+
+          <h1 class="navbar-brand">WHOOPIE <br/>CAKES</h1>
+          <a href="https://www.instagram.com/whoopiecakes/?hl=en" class="logo">
+            <img style="padding: 5px" src="images/icon1.png" />
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">MAIN</a></li>
+            <li class="dropdown">
+              <a  class="dropdown-toggle" data-toggle="dropdown">MENU <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="breakfast.html">Breakfast</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="cakes.html">Cakes</a></li>
+                <li><a href="pastries.html">Pastries</a></li>
+              </ul>
+            </li>
+            <li><a href="delivery.html">DELIVERY</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="#contacts">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+<!--DELIVERY-->
+<div class="delivery">
+    <form>
+        <h2>DELIVERY</h2>
+        <input id="your-name" type="text" name="name" placeholder="Your name" pattern=".{6,}" required>
+        <input id="your-number" type="text"  placeholder="Your contact number" name="phone" id="phone"  pattern=".{6,}" required>
+
+        <input type="submit" value="SEND">
+    </form>
+
+</div>
+    <!--Menu-->
+    <div id="main">
+      <div class="menu" id="menu">
+        <a><h2 class="menu_h2" id="mmm">Menu</h2></a>
+        <a><h1>~ See what we offer ~</h1></a>
+        <div class="row" id="break">
+          <div class="col-md-6" id="text_menu">
+            <a><h2>Breakfasts</h2></a>
+            <a>Breakfast is the best alarm clock to help us
+            wake up and start a new day and the best 
+            hunger controller during the day.</a> <br />
+            <a href="breakfast.html"><button class="btn">view</button></a>
+          </div>
+          <div class="col-md-6">
+            <a href="breakfast.html"><img src="images/breakfast.png" /></a>
+          </div>
+        </div>
+        <div class="row" id="break">
+          <div class="col-md-6 menu-img">
+            <a><img src="images/drinks.png" /></a>
+          </div>
+          <div class="col-md-6" id="text_menu">
+            <a href="drinks.html"><h2>Drinks</h2></a>
+            <a>The main rol drinks is to quench thirst and replenish
+             water loss in the body. All drinks are tasty and many
+             are healthy, but all are good in moderation.</a> <br />
+            <a href="drinks.html"><button class="btn">view</button></a>
+          </div>
+        </div>
+        <div class="row" id="break">
+          <div class="col-md-6" id="text_menu">
+            <a><h2>Cakes</h2></a>
+            <a >An important component of any celebration,including 
+            a holiday in a small circle of the family, a large-scale
+            corporate party or an off-site wedding ceremony,is an
+            appetizing, exquisite and always delicious cake.</a><br />
+            <a href="cakes.html"><button class="btn">view</button></a>
+          </div>
+          <div class="col-md-6">
+            <a href="cakes.html"><img src="images/cakes.png" /></a>
+          </div>
+        </div>
+        <div class="row" id="break">
+          <div class="col-md-6 menu-img">
+            <a href="pastries.html"><img src="images/pastries.png" /></a>
+          </div>
+          <div class="col-md-6" id="text_menu">
+            <a><h2>Pastries</h2></a>
+            <a>Traditions of confectionery art.The embodiment of precious feelings in taste.
+            Sweet life will become a habit!</a><br />
+            <a href="pastries.html"><button class="btn">view</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--ABOUT-->
+    <div class="about" id="about">
+        <div class="row">
+            <div class="mt">
+                <div class="col-md-6" id="text">
+                    <h1>
+                        HOW WE <br />
+                        STARTED BAKING?
+                    </h1>
+                    <p>The owner of the cafe and the author of all the desserts on the menu is Anna Nikulina:<br>
+
+                        Almost several years ago I came from Moscow to Almaty. Then my activity was connected with catering, but opening my own establishment was not in the plans. Having arrived here, I had a brilliant opportunity to start everything from scratch and devote more time to my favorite hobby - making desserts.<br>
+                        At first, I prepared desserts to order with delivery and the business began to grow actively. We got a workshop - literally a month later. We worked in this format for a year and a half, developing the project through Instagram. Our customer base grew, strengthened, and we grew to the point that we opened a small pastry shop with desserts to go.<br>
+
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/cook.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Address-->
+    <section id="contacts">
+        <div class="container">
+            <div class="contacts">
+                <h1 class="section-title">Contact Us</h1>
+                <div class="contacts-block">
+                    <div class="contacts-block__detail">
+                        <h3>Cafe confectionery</h3>
+                        <p class="contacts-block__detail-text">
+                            <img src="./images/icon-clock.png" alt="" />
+                            9:00 - 21:00
+                        </p>
+                        <p class="contacts-block__detail-text">
+                            <img src="./images/icon-home.png" alt="" />
+                            microdistrict Miras, 128
+                        </p>
+                        <p class="contacts-block__detail-text">
+                            <img src="./images/icon-home.png" alt="" />
+                            Abay avenue, 35/37
+                        </p>
+                        <div class="contacts-block__detail-item">
+                            <img src="./images/icon-phone.png" alt="" />
+                            <a href="tel:>+77052255833">
+                                <p>+7(705)-225-58-33</p>
+                            </a>
+                        </div>
+                        <div class="contacts-block__detail-item">
+                            <img src="./images/icon-phone.png" alt="" />
+                            <a href="tel:>+77052788833">
+                                <p>+7(705)-278-88-33</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contacts-block__detail">
+                        <div class="contacts-block__detail-item">
+                            <img src="./images/whatsapp_tile_logo_icon_169898.png" alt="" />
+                            <a href="https://wa.me/+77071083353">
+                                <p>+7(707)-108-33-53</p>
+                            </a>
+                        </div>
+                        <div class="contacts-block__detail-item">
+                            <a href="https://www.facebook.com/whoopiecakeskz/"><img src="images/facebook_tile_logo_icon_170166.png"></a>
+                            <p>@whoopiecakeskz</p>
+                        </div>
+                        <div class="contacts-block__detail-item">
+                            <a href="https://www.instagram.com/whoopiecakes/?hl=en"><img src="images/instagram_logo_icon_168715.png"></a>
+                            <p>@whoopiecakes</p>
+                        </div>
+                    </div>
+                    <div class="contacts-map" id="map">
+                        <iframe src="https://yandex.ua/map-widget/v1/?um=constructor:307a7cca49437fa68b009e46c79a2d42ef1aebe60c167b0db34df4845ed303b8&amp;source=constructor" width="470" height="310" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <center>
+                <span class="credit">@ 2020 Whoopie cakes <a href="#" > </a></span>
+            </center>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 700) {
+          $(".header").addClass("active");
+        } else {
+          $(".header").removeClass("active");
+        }
+      });
+    </script>
+  </body>
+</html>
