@@ -160,24 +160,27 @@ form input {
 }
 
 form input[type="text"], form input[type="text"]{
-    border:solid 4px #fff
+    border:solid 4px #fff;
 }
 
-form input[type="submit"]{
+.delivery button{
+    border-radius: 40px;
     box-sizing: border-box;
     height:50px;
     width:40%;
     cursor: pointer;
     background-color: lavenderblush;
+    border: none;
+    margin: 20px;
 }
 
 
-form input[type="text"]:focus, form input[type="text"]:focus{
+form input:focus{
     width:80%;
     border:solid 4px #55E6C1;
 }
 
-form input[type="submit"]:hover{
+.delivery button:hover{
     background: #99e5df;
 }
 
