@@ -62,16 +62,27 @@
       </div>
     </header>
 <!--DELIVERY-->
-<div class="delivery">
-    <form>
-        <h2>DELIVERY</h2>
-        <input id="your-name" type="text" name="name" placeholder="Your name" pattern=".{6,}" required>
-        <input id="your-number" type="text"  placeholder="Your contact number" name="phone" id="phone"  pattern=".{6,}" required>
-
-        <input type="submit" value="SEND">
-    </form>
-
-</div>
+    <!--DELIVERY-->
+    <div class="delivery">
+        <form action="telegram.php" method="POST">
+            <h2>DELIVERY</h2>
+            <input
+                    id="your-name"
+                    type="text"
+                    name="user_name"
+                    placeholder="Your name"
+                    required
+            />
+            <input
+                    id="your-number"
+                    type="text"
+                    placeholder="Your contact number"
+                    name="user_phone"
+                    required
+            />
+            <button type="submit">SEND</button>
+        </form>
+    </div>
     <!--Menu-->
     <div id="main">
       <div class="menu" id="menu">
@@ -227,3 +238,4 @@
     </script>
   </body>
 </html>
+
